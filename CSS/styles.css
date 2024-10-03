@@ -1,0 +1,109 @@
+/*---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|Altera todas as páginas|---|---|---|---|---|---|---|---|---|---|---|---|---|---|*/
+
+/*Altera toda a página*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Altera todo o corpo da página*/
+body{
+    background-color: #000000;
+    color: #DAA520;
+}
+
+/*Altera a logo da Nexus Holding*/
+.logoNexus{
+    margin-top: -30px;
+    margin-left: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+/*---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|Altera a página de login|---|---|---|---|---|---|---|---|---|---|---|---|---|---|*/
+
+/*Altera a estrutura do formulário de login*/
+.formulario{
+    text-align: center;
+    padding: 30px;
+    width: 375px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+    background-color: #000000;
+    font-size: 20px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+/*Altera a label user*/
+#userContainer label{
+    margin-left: -215px;
+    color: #FFFFFF;
+}
+
+/*Altera a label password*/
+#senhaContainer label{
+    margin-left: -230px;
+    color: #FFFFFF;
+}
+
+/*Altera a barra de input onde o usuário irá digitar o nome do usuário e a senha*/
+#user, #password{
+    width: 350px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+/*Altera o botão "Entrar"*/
+#btnLogin{
+    margin-top: 10px;
+    width: 355px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 1px solid;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*Adiciona um efeito quando passa por cima do botão "Entrar"*/
+#btnLogin:hover{
+    border: 2px solid;
+    color: #DAA520;
+    cursor: pointer;
+}
+
+/*Altera as linhas horizontais*/
+#hr1, #hr2{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/*Altera a linha horizontal de baixo*/
+#hr2{
+    margin-top: 17px;
+}
+
+/*Altera o link para página de usuário ou senha esquecido*/
+#forgPassword{
+    margin-left: -160px;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*Adiciona um efeito ao link para página de usuário ou senha esquecido*/
+#forgPassword:hover{
+    color: #DAA520;
+    text-decoration: underline;
+}
+
+/*---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|*/

@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang = "PT-BR">
+    <head>
+        <title>Nexus Holding - Login de acesso</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <!--Altera o ícone da aba do site-->
+        <link rel = "shortcut icon" type = "image/png" href = "Imagens/Icon-Nexus.ico">
+        <link rel = "stylesheet" href = "CSS/styles.css">
+        <script type = "text/javascript" src = "JavaScript/scripts.js"></script>
+    </head>
+    <body>
+
+        <!--Container onde fica a logo do site-->
+        <div>
+            <figure>
+                <img src = "Imagens/Logo-Nexus.jpg" class = "logoNexus" alt = "Logo da empresa Nexus Holding LTDA">
+            </figure>
+        </div>
+
+        <!--Container-->
+        <div class = "formulario">
+            <!--Formulário de login-->
+            <form>
+                <!--Altera o título do formulário-->
+                <div id = "titleContainer">
+                    <h2>Fazer Login</h2>
+                </div>
+
+                <!--Linha horizontal-->
+                <div>
+                    <hr id  = "hr1">
+                </div>
+
+                <!--Área onde pede para o usuário digitar o nome do usuário-->
+                <div id = "userContainer">
+                    <label for = "user">Digite o usuário:</label>
+                    <br>
+                    <input type = "text" id = "user" name = "user" placeholder = " Usuário" autofocus>
+                </div>
+
+                <!--Área onde pede para o usuário digitar a senha-->
+                <div id = "senhaContainer">
+                    <label for = "password">Digite a senha:</label>
+                    <br>
+                    <input type = "password" id = "password" name = "password" placeholder = " Senha">
+                </div>
+
+                <!--Área onde o usuário clica para recuperar o usuário ou senha esquecido-->
+                <div id = "forPasswordContainer">
+                    <a href = "forgLogin.html" id = "forgPassword">Esqueceu o usuário ou a senha?</a>
+                </div>
+
+                <!--Linha horizontal-->
+                <div>
+                    <hr id = "hr2">
+                </div>
+
+                <!--Altera o botão "Entrar"-->
+                <div id = loginContainer>
+                    <input type = "submit" id = "btnLogin" value = "Entrar" onclick = "login(); return false">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
